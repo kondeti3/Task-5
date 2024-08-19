@@ -39,5 +39,4 @@ module "ses" {
   source       = "./modules/ses"
   region       = var.region
   email_address = var.email_address
-  sns_topic_arn = var.sns_topic_arn
 }

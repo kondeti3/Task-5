@@ -13,11 +13,6 @@ variable "ses_email_address" {
   type        = string
 }
 
-variable "sns_topic_arn" {
-  description = "The SNS Topic ARN for SES"
-  type        = string
-}
-
 variable "email_address" {
   description = "Email address to send QR code to."
   type        = string
